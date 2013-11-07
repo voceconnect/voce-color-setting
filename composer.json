@@ -1,0 +1,19 @@
+{
+    "name": "voceconnect/voce-color-setting",
+    "description": "Voce Settings API Extension for creating color picker settings.",
+    "type": "library",
+    "license": "GPLv2+",
+    "authors": [
+        {
+            "name": "Kevin Langley",
+            "email": "kevin@voceconnect.com"
+        },
+        {
+            "name": "Curtis Loisel",
+            "email": "curtis@voceconnect.com"
+        }
+    ],
+    "autoload": {
+        "files": ["voce-color-setting.php"]
+    }
+}
