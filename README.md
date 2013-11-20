@@ -4,7 +4,7 @@ Contributors: kevinlangleyjr, csloisel
 Tags: settings, color, iris  
 Requires at least: 3.5  
 Tested up to: 3.6  
-Stable tag: 1.0.1  
+Stable tag: 1.0.2  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -41,6 +41,9 @@ Use `vs_display_color_picker` for the display callback arg and `vs_sanitize_colo
 ```
 
 ## Changelog
+
+**1.0.2**
+*Different regex for color sanitization.*
 
 **1.0.1**
 *Fixing regex for color sanitization.*

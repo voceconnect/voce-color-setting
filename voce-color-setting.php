@@ -25,7 +25,7 @@ if ( !class_exists( 'Voce_Color_Setting' ) ){
 
 		public static function sanitize_color_picker( $value, $setting, $args ){
 			$value = sanitize_text_field( $value );
-			return ( preg_match( '/^#([0-9a-f]{1,2}){3}$/i', $value ) ) ? $value : '';
+			return ( preg_match( '/#(?:[0-9a-f]{6}|[0-9a-f]{3})/i', $value ) ) ? $value : '';
 		}
 	}
 	add_action( 'admin_init', array( 'Voce_Color_Setting', 'initialize' ) );
