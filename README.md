@@ -42,6 +42,9 @@ Use `vs_display_color_picker` for the display callback arg and `vs_sanitize_colo
 
 ## Changelog
 
+**1.1.0**
+* Preventing fatal error for setups that load dependencies before WordPress
+
 **1.0.2**
 *Different regex for color sanitization.*
 
